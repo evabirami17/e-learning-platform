@@ -1,0 +1,211 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    
+  <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  <link rel="stylesheet" href="{% static 'css/footer.css'%}">
+  <link rel="stylesheet" href="{% static 'css/form.css'%}">
+  <title>Tech-World</title>
+ 
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top p-md-1">
+    <div class="container">
+      <!-- mb-0 h1 -->
+      <a class="navbar-brand " href="index.html">
+        <img src="{% static 'image/evey.png'%} "width="120" height="60" alt="" loading="lazy"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" navbar-nav  ">
+          <!-- <ul class="nav justify-content-end"> -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/Tech-World/">Home <span class="sr-only">(current)</span></a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/Tech-World/freeCourse.html">Free Courses</a>
+          </li>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Tech-World/programminghub.html">Programming Hub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Tech-World/Ebook.html">E-Books</a>
+          </li>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner image start -->
+ <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'image/home-slider.jpeg'%}" class="d-block w-100" alt="...">
+            
+        </div>
+      </div>
+  <!-- Banner image end -->
+
+  <!--  Card layout start -->
+  
+  <div class=" d-flex justify-content-center align-items-center p-md-5" id="card">
+
+    <div class="content text-center">
+      <h2 style="color: black; font-weight: 900; font-family: Merriweather;">EVEY.</h2>
+      <p style="font-size: 25px;"><i> Learn Anything,Anytime,Anywhere</i></p>
+    
+
+    <div class="container my-3  p-md-4">
+      <div class=" row featurette d-flex justify-content-center align-items-center ">
+        <div class="card1 col-md-7 ">
+          <h2 class="featurette-heading" style="color: white; background-color: rgba(4, 238, 246, 0.903); font-family: vardana; ">Free
+            Course's </h2>
+          <p class="lead" style="font-size: 17px"><i>Each collection is a hand-picked selection of online courses, to help you discover a new passion, 
+              understand a subject in depth or become an expert in your field. available courses gives you opportunity to bring up yourself.</i></p>
+          <div>
+              <a href="freeCourse.html" class="btn btn-outline-primary" role="button" aria-pressed="true">Learn More</a>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-5">
+          <img class="img-fluid" src="{% static 'image/myimg2.jpg'%}" alt="">
+        </div>
+      </div>
+      <br>
+    
+    <div class=" row featurette d-flex justify-content-center align-items-center">
+      <div class="card1 col-md-7 order-md-2">
+        <h2 class="featurette-heading" style="color: white; background-color:#5eee3e; font-family: vardana; ">
+          Programming-Hub</h2>
+        <p class="lead" style="font-size: 17px"><i>Learning to code has never been so much fun before ! We have made the learning experience fun and interactive. 
+              You will enjoy it like a game while learning and upgrading your skills. <b>Programming Hub</b> provides you to easy learning platform.</i></p>
+        <div>
+              <a href="programminghub.html" class="btn btn-outline-primary" role="button" aria-pressed="true">Learn More</a>
+            </div>
+            <br>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="img-fluid" src="{% static 'image/myimg2.jpg'%}" alt="">
+      </div>
+      
+    </div>
+    <br>
+  
+    <div class=" row featurette d-flex justify-content-center align-items-center">
+      <div class="card1 col-md-7">
+        <h2 class="featurette-heading" style="color: white; background-color: red; font-family: vardana; ">E-Book
+          library</h2>
+        <p class="lead"style="font-size: 17px"><i>This <b>ebook library</b> provides free download of pdf ebooks of different subjects along with pdf or zip 
+              version of ebooks. So you can get free ebook and download pdf from here and read offline mode.On ebook library, you 
+              can read many books anytime, anywhere.</i></p>
+            <div>
+              <a href="Ebook.html" class="btn btn-outline-primary" role="button" aria-pressed="true">Learn More</a>
+        </div>
+        <br>
+      </div>
+      <div class="col-md-5">
+        <img class="img-fluid" src="{% static 'image/myimg2.jpg'%}" alt="">
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid black;">
+</div>
+  </div>
+  <!--  Card layout end -->
+         <h1 ><center>Sent a Request</center></h1>
+  <div class="cont">
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+   
+  <!-- footer start -->
+  <div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          
+          <div class="footer-col">
+            <h4>Evey.</h4>
+            <ul>
+              <li><a href="index.html">E-Learning Platform</a></li>
+              <li><a href="#">Since 2023</a></li>
+            </ul> 
+          </div>
+          <div class="footer-col">
+            <h4>About us</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Ebooks</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">evabirami17@gmail.com</a></li>
+              <li><a href="#">Phone: +91 6383066439</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- footer end -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="{% static 'js/style.js'%}"></script>
+ 
+</body>
+
+</html>
